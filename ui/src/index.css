@@ -1,0 +1,173 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "@fontsource-variable/archivo/wdth.css";
+
+@theme inline {
+    --font-sans: 'Archivo Variable', ui-sans-serif, system-ui, sans-serif;
+    --font-heading: var(--font-sans);
+    --color-ring: var(--ring);
+    --color-input: var(--input);
+    --color-faint: var(--faint);
+    --color-border: var(--border);
+    --color-destructive: var(--destructive);
+    --color-accent-foreground: var(--accent-foreground);
+    --color-accent: var(--accent);
+    --color-muted-foreground: var(--muted-foreground);
+    --color-muted: var(--muted);
+    --color-secondary-foreground: var(--secondary-foreground);
+    --color-secondary: var(--secondary);
+    --color-primary-foreground: var(--primary-foreground);
+    --color-primary: var(--primary);
+    --color-popover-foreground: var(--popover-foreground);
+    --color-popover: var(--popover);
+    --color-card-foreground: var(--card-foreground);
+    --color-card: var(--card);
+    --color-foreground: var(--foreground);
+    --color-background: var(--background);
+
+    /* The plan's own colours. Each has one job. */
+    --color-ink: var(--ink);
+    --color-rail: var(--rail);
+    --color-rail-foreground: var(--rail-foreground);
+    --color-rail-muted: var(--rail-muted);
+    --color-rail-line: var(--rail-line);
+    --color-rule: var(--rule);
+    --color-zone-a: var(--zone-a);
+    --color-zone-b: var(--zone-b);
+    --color-zone-b-ink: var(--zone-b-ink);
+    --color-zone-c: var(--zone-c);
+    --color-live: var(--live);
+    --color-live-soft: var(--live-soft);
+    --color-good: var(--good);
+    --color-good-soft: var(--good-soft);
+    --color-warn: var(--warn);
+    --color-warn-soft: var(--warn-soft);
+    --color-bad: var(--bad);
+    --color-bad-soft: var(--bad-soft);
+
+    --radius-sm: calc(var(--radius) * 0.5);
+    --radius-md: var(--radius);
+    --radius-lg: var(--radius);
+    --radius-xl: var(--radius);
+    --radius-2xl: var(--radius);
+    --radius-3xl: var(--radius);
+    --radius-4xl: var(--radius);
+}
+
+:root {
+    /* sheet and ink */
+    --background: #eef0ea;        /* drafting film */
+    --foreground: #15201d;
+    --ink: #15201d;
+    --card: #f7f8f4;
+    --card-foreground: #15201d;
+    --popover: #fbfcf9;
+    --popover-foreground: #15201d;
+    --primary: #15201d;
+    --primary-foreground: #eef0ea;
+    --secondary: #e0e4dc;
+    --secondary-foreground: #15201d;
+    --muted: #e4e7e0;
+    --muted-foreground: #51605a;
+    --border: #c3c9c1;
+    --rule: #15201d;              /* the plan's drawn line */
+    --input: #7f8a80;             /* control strokes: 3:1 on the sheet */
+    --faint: #a9b2a8;             /* marks that should read as absence */
+    --radius: 0.125rem;           /* plans are square-cornered */
+
+    /* the ink rail */
+    --rail: #15201d;
+    --rail-foreground: #e3e9e4;
+    --rail-muted: #9fb0a8;
+    --rail-line: #2e3e38;
+
+    /* zoning: tier A, tier B, unzoned */
+    --zone-a: #c63d25;
+    --zone-b: #efc62f;
+    --zone-b-ink: #2a2200;
+    --zone-c: #c2c8bf;
+
+    /* blue is the only live colour: selection, focus, running work */
+    --live: #2b62a8;
+    --live-soft: #dbe5f2;
+    --accent: #dbe5f2;
+    --accent-foreground: #14365f;
+    --ring: #2b62a8;
+
+    /* states */
+    --good: #2a7550;
+    --good-soft: #dcebe2;
+    --warn: #7a5600;
+    --warn-soft: #f6e9b8;
+    --bad: #b0351f;
+    --bad-soft: #f5ddd6;
+    --destructive: #b0351f;
+}
+
+@layer base {
+    * {
+        @apply border-border outline-ring/60;
+    }
+    html {
+        @apply font-sans;
+        font-size: 16px;
+        scrollbar-color: #a9b2a8 transparent;
+        scrollbar-width: thin;
+    }
+    body {
+        @apply bg-background text-sm text-foreground antialiased;
+        font-feature-settings: "tnum" 1;
+        caret-color: var(--live);
+    }
+    ::selection {
+        background: var(--live);
+        color: #fff;
+    }
+    :focus-visible {
+        outline: 2px solid var(--live);
+        outline-offset: 1px;
+    }
+    a {
+        text-underline-offset: 0.18em;
+        text-decoration-thickness: 1px;
+    }
+    button:not(:disabled),
+    [role="button"]:not(:disabled) {
+        cursor: pointer;
+    }
+    h1, h2, h3 {
+        text-wrap: balance;
+    }
+}
+
+@layer components {
+    /* Plan lettering: the condensed caps used for labels, codes and column heads. */
+    .lettering {
+        font-stretch: 72%;
+        font-weight: 600;
+        font-size: 0.6875rem;
+        line-height: 1rem;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+    }
+    .plot-no {
+        font-stretch: 72%;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        font-variant-numeric: tabular-nums;
+    }
+    .figure {
+        font-variant-numeric: tabular-nums;
+    }
+    .prose-measure {
+        max-width: 70ch;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+    }
+}
