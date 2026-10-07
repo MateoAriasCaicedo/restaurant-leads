@@ -1,0 +1,153 @@
+{
+  "title": "Choose the visual world for Daan Agency",
+  "question": "The roll assigned Plano Catastral. Keep it, take an alternate, or re-roll. This build is code-led: no image generator is available here, so the cards show palette, facts and a layout sketch.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Plano Catastral",
+      "kicker": "THE ROLL",
+      "lineage": "Colombian municipal survey and land-use plans",
+      "thesis": "Every lead is a plot on the neighbourhood's survey sheet: numbered, zoned by tier, lettered like a plan.",
+      "palette": ["#EEF0EA", "#15201D", "#D2452D", "#EFC62F", "#2B62A8", "#2F7D55"],
+      "materials": ["drafting film ground", "technical-pen linework", "zoning fills and hatching", "condensed plan lettering"],
+      "viewport": "A dark ink rail (Leads, Board, Pipeline) beside the sheet: the ranked table, each row keyed by its plot number and zoned by tier colour. A title block top-right carries area, counts and last survey date. Signature move: the score is a parcel strip, subdivided 30/30/20/20 for need, ability, momentum and reach and hatched to the amount earned; on a lead page its 500 m block is drawn as a real plot of the neighbours from their coordinates.",
+      "risk": "Hatching and plot codes become decoration the moment they stop encoding data.",
+      "raised": [
+        { "from": "challenger-saville", "raise": "Every lead carries one stable plot number, shown wherever the lead appears." },
+        { "from": "challenger-ticket", "raise": "Rejected and excluded leads are struck in place on the sheet, never removed." },
+        { "from": "challenger-metro", "raise": "One colour owns every live state: running jobs, selection and focus." }
+      ],
+      "wireframe": { "cols": 12, "rows": 10, "regions": [
+        { "label": "ink rail: nav", "x": 0, "y": 0, "w": 2, "h": 10, "accent": true },
+        { "label": "filters", "x": 2, "y": 0, "w": 7, "h": 1 },
+        { "label": "title block", "x": 9, "y": 0, "w": 3, "h": 2 },
+        { "label": "ranked sheet: plot no., tier zone, parcel strip, reasons", "x": 2, "y": 1, "w": 7, "h": 9 },
+        { "label": "selected plot: why it fits", "x": 9, "y": 2, "w": 3, "h": 8 }
+      ] }
+    },
+    {
+      "id": "model-pick",
+      "label": "Páginas Amarillas",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "printed business phone directories",
+      "thesis": "A directory you call from: dense listings, bold heads, and reachability as the lead-in of every entry.",
+      "palette": ["#FFD500", "#111111", "#FAFAF5", "#D62718"],
+      "materials": ["thin directory stock", "black condensed listings", "boxed display entries", "category index tabs"],
+      "viewport": "A yellow header band holds the area, search and counts; filters run down the left as a category index. The ranked list reads as directory entries in a tight column rhythm. Signature move: tier A leads are set as boxed display listings with their reasons, and each entry leads with how to reach it (phone, WhatsApp), so a missing phone reads as a visible gap.",
+      "risk": "The most familiar reading of a lead list, and saturated yellow tires over a long session.",
+      "wireframe": { "cols": 12, "rows": 10, "regions": [
+        { "label": "yellow band: area, search, counts", "x": 0, "y": 0, "w": 12, "h": 2, "accent": true },
+        { "label": "category index", "x": 0, "y": 2, "w": 2, "h": 8 },
+        { "label": "boxed tier A listings", "x": 2, "y": 2, "w": 10, "h": 3 },
+        { "label": "directory entries: reach, name, reasons, score", "x": 2, "y": 5, "w": 10, "h": 5 }
+      ] }
+    },
+    {
+      "id": "challenger-wayfinding",
+      "label": "Terminal Yellow Wayfinding",
+      "verdict": "competitive",
+      "lineage": "international airport sign systems",
+      "thesis": "Each lead is a decision point: one band says where you are and the next move.",
+      "palette": ["#FFD100", "#111111", "#FFFFFF", "#2E7D32"],
+      "materials": ["framed sign bands", "white pictograms on black squares", "humanist sans in sentence case", "monumental numerals"],
+      "viewport": "Top bar navigation over a yellow band that names the current view and the next action. Below, the ranked table with tier and score set at monumental size and reach shown as pictograms. Signature move: on a lead, the band re-signs itself after every step (approve, get insights, contact), always showing only the choices ahead.",
+      "case": "Holds product clarity: statuses become a chain of decisions. Loses identification: an airport is nobody's neighbourhood.",
+      "risk": "Yellow reserved for wayfinding leaves little colour for tiers and states.",
+      "hero": "https://impeccable.style/worlds/cards/wayfinding-cartography-signage-terminal-yellow-wayfinding-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/wayfinding-cartography-signage-terminal-yellow-wayfinding.webp",
+      "wireframe": { "cols": 12, "rows": 10, "regions": [
+        { "label": "top bar nav", "x": 0, "y": 0, "w": 12, "h": 1 },
+        { "label": "yellow sign band: where you are, next move", "x": 0, "y": 1, "w": 12, "h": 2, "accent": true },
+        { "label": "ranked table: monumental tier and score, reach pictograms", "x": 0, "y": 3, "w": 12, "h": 7 }
+      ] }
+    },
+    {
+      "id": "challenger-streaming",
+      "label": "Streaming Title Wall",
+      "verdict": "declined",
+      "lineage": "streaming catalog poster rows",
+      "thesis": "Rows of tiles where the focused one grows and the rest recede.",
+      "palette": ["#0F1115", "#E6E6E6", "#E50914"],
+      "materials": ["poster tiles", "deep neutral ground"],
+      "viewport": "Horizontal rails of lead tiles by tier, the focused tile expanding to show its reasons.",
+      "case": "216 of 235 leads have no imagery to put on a tile, and a ranked scan needs rows.",
+      "kept": "The row in focus owns the sheet; its neighbours recede.",
+      "risk": "A wall of empty posters.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-streaming-title-card-wall-hero.webp"
+    },
+    {
+      "id": "challenger-metro",
+      "label": "Metro Typographic Tiles",
+      "verdict": "declined",
+      "lineage": "the flat-tile, giant-lowercase phone interface",
+      "thesis": "Type is the interface: giant lowercase heads and flat colour tiles.",
+      "palette": ["#000000", "#00ABA9", "#FFFFFF"],
+      "materials": ["flat tiles", "light-weight lowercase at poster size"],
+      "viewport": "A panorama of tiles per tier with headlines cropped off the edge.",
+      "case": "Giant cropped type fights a dense ranked table.",
+      "kept": "One colour owns every live state.",
+      "risk": "Density collapses.",
+      "hero": "https://impeccable.style/worlds/cards/digital-design-canon-metro-typographic-tiles-hero.webp"
+    },
+    {
+      "id": "challenger-saville",
+      "label": "Catalog Sleeve",
+      "verdict": "declined",
+      "lineage": "a record label's numbered catalog identity",
+      "thesis": "Everything is a numbered catalog entry and state speaks in colour code.",
+      "palette": ["#0B0B0B", "#FFFFFF", "#D13A2F", "#2F6FD1"],
+      "materials": ["matte black", "white hairline plots", "coded colour strips"],
+      "viewport": "A black index of numbered entries, each with a coded strip that decodes on hover.",
+      "case": "State spoken in code breaks the product rule that the reason comes with the rank.",
+      "kept": "Every item carries a stable catalog number.",
+      "risk": "Beautiful and unreadable.",
+      "hero": "https://impeccable.style/worlds/cards/brand-identity-canon-saville-catalog-sleeve-hero.webp"
+    },
+    {
+      "id": "challenger-ticket",
+      "label": "Jet-Age Ticket Wallet",
+      "verdict": "declined",
+      "lineage": "airline ticket coupons and baggage tags",
+      "thesis": "The pipeline as a coupon book: each leg stamps itself used or void.",
+      "palette": ["#14275A", "#D42B2B", "#FFFFFF", "#6B4FA0"],
+      "materials": ["coupon stock", "carbon numerals", "rubber stamps"],
+      "viewport": "A lead as a wallet of coupons, one per stage, stamped as it moves.",
+      "case": "Coupon legs suit a pipeline, but the main job is the ranked scan.",
+      "kept": "Nothing disappears, it cancels.",
+      "risk": "Charming on one lead, slow across two hundred.",
+      "hero": "https://impeccable.style/worlds/cards/vernacular-ephemera-jet-age-ticket-wallet-hero.webp"
+    },
+    {
+      "id": "challenger-specimen",
+      "label": "Variable Font Specimen",
+      "verdict": "declined",
+      "lineage": "interactive type specimens",
+      "thesis": "One giant letter and a slider that morphs the whole grid.",
+      "palette": ["#FAFAFA", "#111111", "#FF4F1A"],
+      "materials": ["paper white", "enormous display type", "tiny mono labels"],
+      "viewport": "A specimen grid with axis sliders over the lead list.",
+      "case": "A specimen's one giant letter has no job on a working list.",
+      "kept": "Hierarchy by scale contrast alone, no ornament.",
+      "risk": "A demo, not a tool.",
+      "hero": "https://impeccable.style/worlds/cards/variable-font-specimen-hero.webp"
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "buildPath": { "value": "code" },
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "A clean CRM table in the manner of Linear or Attio, played straight at full craft.",
+    "palette": ["#FFFFFF", "#0F172A", "#4F46E5"],
+    "materials": ["neutral grid", "system sans", "one accent"],
+    "viewport": "A light side rail, a toolbar of filters, a white table with one accent colour and a detail panel.",
+    "risk": "Indistinguishable from other tools by design.",
+    "wireframe": { "cols": 12, "rows": 10, "regions": [
+      { "label": "side rail", "x": 0, "y": 0, "w": 2, "h": 10 },
+      { "label": "filter toolbar", "x": 2, "y": 0, "w": 10, "h": 1 },
+      { "label": "table", "x": 2, "y": 1, "w": 7, "h": 9 },
+      { "label": "detail panel", "x": 9, "y": 1, "w": 3, "h": 9 }
+    ] }
+  },
+  "steer": true
+}

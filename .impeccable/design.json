@@ -1,0 +1,710 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-02T23:12:08+00:00",
+  "title": "Design System: Daan Agency Leads",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "neutral",
+        "displayName": "Drafting Film",
+        "canonical": "oklch(95.2% 0.008 121.6)",
+        "tonalRamp": [
+          "#0b0c08",
+          "#242621",
+          "#41433e",
+          "#60625d",
+          "#81837e",
+          "#a4a6a0",
+          "#c8cac4",
+          "#edefe9"
+        ],
+        "aliases": [
+          "--primary-foreground"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Clean Film",
+        "canonical": "oklch(97.7% 0.005 117.9)",
+        "tonalRamp": [
+          "#0b0b09",
+          "#252522",
+          "#42423f",
+          "#61625e",
+          "#82837f",
+          "#a4a5a2",
+          "#c9cac6",
+          "#eeefeb"
+        ]
+      },
+      "popover": {
+        "role": "neutral",
+        "displayName": "Overlay Film",
+        "canonical": "oklch(98.9% 0.004 121.6)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#252523",
+          "#414240",
+          "#61625f",
+          "#828380",
+          "#a4a5a3",
+          "#c8c9c7",
+          "#eeefec"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Plan Ink",
+        "canonical": "oklch(23.2% 0.017 176.1)",
+        "tonalRamp": [
+          "#040d0b",
+          "#1d2825",
+          "#394542",
+          "#586461",
+          "#788682",
+          "#9ba9a4",
+          "#bfcdc9",
+          "#e4f2ee"
+        ],
+        "aliases": [
+          "--foreground",
+          "--primary",
+          "--rule",
+          "--rail",
+          "--card-foreground",
+          "--popover-foreground"
+        ]
+      },
+      "muted-foreground": {
+        "role": "neutral",
+        "displayName": "Pencil",
+        "canonical": "oklch(47.4% 0.021 169.3)",
+        "tonalRamp": [
+          "#030e0a",
+          "#1b2823",
+          "#374640",
+          "#56655f",
+          "#778780",
+          "#99a9a3",
+          "#bdcec7",
+          "#e2f3ec"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Film Shade",
+        "canonical": "oklch(92.4% 0.010 125.7)",
+        "tonalRamp": [
+          "#0a0c08",
+          "#242621",
+          "#41433d",
+          "#60625c",
+          "#81837d",
+          "#a3a6a0",
+          "#c7cac3",
+          "#edf0e9"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Survey Line",
+        "canonical": "oklch(82.9% 0.013 137.8)",
+        "tonalRamp": [
+          "#090c07",
+          "#222721",
+          "#3f443d",
+          "#5e635c",
+          "#7f847d",
+          "#a1a79f",
+          "#c5cbc3",
+          "#eaf1e8"
+        ]
+      },
+      "input": {
+        "role": "neutral",
+        "displayName": "Control Line",
+        "canonical": "oklch(62.1% 0.020 148.0)",
+        "tonalRamp": [
+          "#060d07",
+          "#1f2820",
+          "#3b453c",
+          "#5a645b",
+          "#7b867c",
+          "#9da99e",
+          "#c1cdc2",
+          "#e6f2e7"
+        ]
+      },
+      "faint": {
+        "role": "neutral",
+        "displayName": "Survey Grey",
+        "canonical": "oklch(75.4% 0.017 142.5)",
+        "tonalRamp": [
+          "#070d07",
+          "#202720",
+          "#3d443c",
+          "#5c645b",
+          "#7d857c",
+          "#9fa89e",
+          "#c3ccc2",
+          "#e8f2e7"
+        ]
+      },
+      "rail-foreground": {
+        "role": "neutral",
+        "displayName": "Rail Film",
+        "canonical": "oklch(92.8% 0.009 150.7)",
+        "tonalRamp": [
+          "#080c09",
+          "#222623",
+          "#3f433f",
+          "#5e635e",
+          "#7f847f",
+          "#a1a7a2",
+          "#c5cbc6",
+          "#eaf0eb"
+        ]
+      },
+      "rail-muted": {
+        "role": "neutral",
+        "displayName": "Rail Pencil",
+        "canonical": "oklch(74.2% 0.022 165.9)",
+        "tonalRamp": [
+          "#030e09",
+          "#1b2923",
+          "#37463f",
+          "#56655e",
+          "#77877f",
+          "#99aaa2",
+          "#bdcec6",
+          "#e2f4eb"
+        ]
+      },
+      "rail-line": {
+        "role": "neutral",
+        "displayName": "Rail Line",
+        "canonical": "oklch(34.8% 0.023 170.0)",
+        "tonalRamp": [
+          "#020e0a",
+          "#192923",
+          "#364640",
+          "#55665f",
+          "#758780",
+          "#97aaa3",
+          "#bbcec7",
+          "#e0f4ec"
+        ]
+      },
+      "zone-a": {
+        "role": "tertiary",
+        "displayName": "Zone A Vermilion",
+        "canonical": "oklch(55.7% 0.178 32.3)",
+        "tonalRamp": [
+          "#1e0100",
+          "#4a0700",
+          "#7b1502",
+          "#af250b",
+          "#d84e35",
+          "#fe755c",
+          "#ffb4a4",
+          "#ffe9e4"
+        ]
+      },
+      "zone-b": {
+        "role": "tertiary",
+        "displayName": "Zone B Signal Yellow",
+        "canonical": "oklch(83.9% 0.160 92.4)",
+        "tonalRamp": [
+          "#100b00",
+          "#2e2400",
+          "#504001",
+          "#755f07",
+          "#9c7f0a",
+          "#c5a108",
+          "#eec52d",
+          "#ffeebb"
+        ]
+      },
+      "zone-b-ink": {
+        "role": "tertiary",
+        "displayName": "Zone B Ink",
+        "canonical": "oklch(25.4% 0.052 96.0)",
+        "tonalRamp": [
+          "#0f0b00",
+          "#2d2502",
+          "#4a4220",
+          "#6a613f",
+          "#8b835f",
+          "#aea580",
+          "#d3caa3",
+          "#f9efc8"
+        ]
+      },
+      "zone-c": {
+        "role": "tertiary",
+        "displayName": "Unzoned Grey",
+        "canonical": "oklch(82.6% 0.014 134.9)",
+        "tonalRamp": [
+          "#090d07",
+          "#222720",
+          "#3f443c",
+          "#5e635b",
+          "#7f847c",
+          "#a1a79e",
+          "#c5cbc2",
+          "#eaf1e7"
+        ]
+      },
+      "live": {
+        "role": "secondary",
+        "displayName": "Survey Blue",
+        "canonical": "oklch(49.6% 0.126 255.8)",
+        "tonalRamp": [
+          "#000a20",
+          "#00234f",
+          "#024083",
+          "#2a61a7",
+          "#4c84cc",
+          "#6ea7f3",
+          "#a6ccff",
+          "#e4f0ff"
+        ],
+        "aliases": [
+          "--ring"
+        ]
+      },
+      "live-soft": {
+        "role": "secondary",
+        "displayName": "Survey Blue Wash",
+        "canonical": "oklch(91.8% 0.021 254.9)",
+        "tonalRamp": [
+          "#060c14",
+          "#1e262f",
+          "#3b434d",
+          "#59626d",
+          "#7a838f",
+          "#9da6b2",
+          "#c0cad7",
+          "#e5f0fd"
+        ],
+        "aliases": [
+          "--accent"
+        ]
+      },
+      "accent-foreground": {
+        "role": "secondary",
+        "displayName": "Deep Survey Blue",
+        "canonical": "oklch(33.1% 0.083 254.9)",
+        "tonalRamp": [
+          "#000b20",
+          "#02244c",
+          "#21436d",
+          "#40638f",
+          "#6085b3",
+          "#82a8d8",
+          "#a5ccff",
+          "#e4f0ff"
+        ]
+      },
+      "good": {
+        "role": "state",
+        "displayName": "Verified Green",
+        "canonical": "oklch(50.5% 0.095 158.5)",
+        "tonalRamp": [
+          "#000f06",
+          "#012e1a",
+          "#024f30",
+          "#26714d",
+          "#4b946d",
+          "#6eb78f",
+          "#92dcb2",
+          "#c3ffdc"
+        ]
+      },
+      "good-soft": {
+        "role": "state",
+        "displayName": "Green Wash",
+        "canonical": "oklch(92.6% 0.020 159.7)",
+        "tonalRamp": [
+          "#040e08",
+          "#1d2822",
+          "#39453e",
+          "#58655d",
+          "#79867e",
+          "#9ba9a1",
+          "#bfcdc5",
+          "#e4f3ea"
+        ]
+      },
+      "warn": {
+        "role": "state",
+        "displayName": "Survey Ochre",
+        "canonical": "oklch(47.9% 0.099 80.4)",
+        "tonalRamp": [
+          "#120900",
+          "#322201",
+          "#573d01",
+          "#7e5a08",
+          "#a17b35",
+          "#c59e59",
+          "#ebc37d",
+          "#ffeccc"
+        ]
+      },
+      "warn-soft": {
+        "role": "state",
+        "displayName": "Straw Plate",
+        "canonical": "oklch(93.2% 0.065 95.0)",
+        "tonalRamp": [
+          "#0f0b00",
+          "#2d2400",
+          "#4d4114",
+          "#6d6134",
+          "#8e8255",
+          "#b2a576",
+          "#d6c999",
+          "#fcefbe"
+        ]
+      },
+      "bad": {
+        "role": "state",
+        "displayName": "Failure Red",
+        "canonical": "oklch(51.0% 0.163 32.5)",
+        "tonalRamp": [
+          "#1e0100",
+          "#4a0801",
+          "#7b1401",
+          "#aa2f19",
+          "#d2553d",
+          "#fa7960",
+          "#ffb4a4",
+          "#ffe9e4"
+        ],
+        "aliases": [
+          "--destructive"
+        ]
+      },
+      "bad-soft": {
+        "role": "state",
+        "displayName": "Red Wash",
+        "canonical": "oklch(91.5% 0.028 36.9)",
+        "tonalRamp": [
+          "#150704",
+          "#31201b",
+          "#503d37",
+          "#705c56",
+          "#927d77",
+          "#b69f99",
+          "#dbc3bc",
+          "#ffe9e3"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The sell score figure on the lead page, always beside its tier zone and 'of 100'."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "The restaurant's name at the top of the lead page."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section headings on a ruled line, board column names, the rail's brand line, score figures in sheet rows."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default text; names in rows set semibold; analysis prose held to 70ch."
+      },
+      "body-small": {
+        "displayName": "Body small",
+        "purpose": "Title-block values, filter facts, legends, panel links, chips."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Reason lines under names, section asides, timestamps, the job log."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Buttons, rail items, tabs."
+      },
+      "label": {
+        "displayName": "Plan lettering",
+        "purpose": "Uppercase condensed lettering for column heads, terms, stamps, marks, tier letters and keys. Implemented as font-stretch: 72% with text-transform: uppercase."
+      },
+      "plot-number": {
+        "displayName": "Plot number",
+        "purpose": "The stable plot code (OSM type initial and id), always in Pencil."
+      }
+    },
+    "shadows": [
+      {
+        "name": "overlay",
+        "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1), 0 0 0 1px rgb(21 32 29 / 0.1)",
+        "purpose": "Popovers and select lists (shadcn shadow-md plus a 1px ink ring at 10%). Overlays only."
+      },
+      {
+        "name": "overlay-large",
+        "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+        "purpose": "Dropdown menus and the jobs drawer (shadcn shadow-lg). Overlays only."
+      },
+      {
+        "name": "header-rule",
+        "value": "inset 0 -1px 0 var(--rule)",
+        "purpose": "Not elevation: the sticky table header's 1px ink rule, drawn as an inset line so it survives scrolling with collapsed borders."
+      },
+      {
+        "name": "focus-ring",
+        "value": "0 0 0 3px rgb(43 98 168 / 0.5)",
+        "purpose": "Focus on shadcn controls (with the border turned Survey Blue). Elsewhere focus is a 2px Survey Blue outline offset 1px."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-standard",
+        "value": "150ms cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Colour, border and ring changes on buttons, inputs, toggles and tabs."
+      },
+      {
+        "name": "press",
+        "value": "translateY(1px)",
+        "purpose": "Buttons nudge down 1px while pressed."
+      },
+      {
+        "name": "overlay-in",
+        "value": "100ms fade from 0 with zoom from 95% and a 0.5rem slide from the trigger side",
+        "purpose": "Popovers, select lists, menus and tooltips opening and closing."
+      },
+      {
+        "name": "tooltip-delay",
+        "value": "250ms",
+        "purpose": "Delay before a tooltip opens."
+      },
+      {
+        "name": "drawer",
+        "value": "200ms ease-in-out, opacity with a 2.5rem slide from the right",
+        "purpose": "The jobs drawer."
+      },
+      {
+        "name": "spinner",
+        "value": "1s linear infinite rotation",
+        "purpose": "Running work: the rail's Jobs entry, running job steps (Survey Blue)."
+      },
+      {
+        "name": "skeleton-pulse",
+        "value": "2s cubic-bezier(0.4, 0, 0.6, 1) infinite opacity pulse",
+        "purpose": "Loading placeholders on Film Shade."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "0.01ms",
+        "purpose": "Under prefers-reduced-motion every animation and transition collapses to an instant change."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px",
+        "purpose": "Parcel strips appear in sheet rows; title blocks go to one row of four."
+      },
+      {
+        "name": "md",
+        "value": "768px",
+        "purpose": "The rail becomes a 208px left column with Jobs at its foot; the plot-number column appears."
+      },
+      {
+        "name": "lg",
+        "value": "1024px",
+        "purpose": "The block drawing gains its legend and nearest-neighbour column."
+      },
+      {
+        "name": "xl",
+        "value": "1280px",
+        "purpose": "The sheet's 320px side column (title block and plot panel) and the lead page's 20rem aside appear; reason lines drop to one line."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one decisive action in a place: Approve, Log contact, Audit new and broken. Ink fill, film label.",
+      "html": "<button type=\"button\" class=\"ds-btn-primary\">Approve</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 6px; height: 32px; padding: 0 10px; background: var(--ink, #15201d); color: var(--background, #eef0ea); border: 1px solid transparent; border-radius: 2px; font: 500 14px/20px 'Archivo Variable', ui-sans-serif, system-ui, sans-serif; white-space: nowrap; cursor: pointer; transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1), transform 150ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-btn-primary:hover { background: rgb(21 32 29 / 0.8); } .ds-btn-primary:focus-visible { outline: none; border-color: var(--live, #2b62a8); box-shadow: 0 0 0 3px rgb(43 98 168 / 0.5); } .ds-btn-primary:active { transform: translateY(1px); } .ds-btn-primary:disabled { opacity: 0.5; pointer-events: none; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary actions (Reject, Open, Re-check, CSV): film fill, survey-line border, ink label; small size is 28px.",
+      "html": "<div class=\"ds-btn-row\"><button type=\"button\" class=\"ds-btn-outline\">Reject</button><button type=\"button\" class=\"ds-btn-outline\">Open <svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"/><path d=\"M7 17 17 7\"/></svg></button><button type=\"button\" class=\"ds-btn-outline ds-btn-sm\">CSV</button></div>",
+      "css": ".ds-btn-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; } .ds-btn-outline { display: inline-flex; align-items: center; justify-content: center; gap: 6px; height: 32px; padding: 0 10px; background: var(--background, #eef0ea); color: var(--ink, #15201d); border: 1px solid var(--border, #c3c9c1); border-radius: 2px; font: 500 14px/20px 'Archivo Variable', ui-sans-serif, system-ui, sans-serif; white-space: nowrap; cursor: pointer; transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1), transform 150ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-btn-outline svg { width: 16px; height: 16px; flex-shrink: 0; } .ds-btn-outline.ds-btn-sm { height: 28px; font-size: 12.8px; gap: 4px; } .ds-btn-outline:hover { background: var(--muted, #e4e7e0); } .ds-btn-outline:focus-visible { outline: none; border-color: var(--live, #2b62a8); box-shadow: 0 0 0 3px rgb(43 98 168 / 0.5); } .ds-btn-outline:active { transform: translateY(1px); }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Text input on the sheet: transparent, Control Line stroke (3:1), 2px radius, blue focus and caret; the search variant insets its icon.",
+      "html": "<label class=\"ds-search\"><span class=\"ds-search-icon\"><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg></span><input class=\"ds-input\" type=\"search\" placeholder=\"Search name, cuisine, address\" aria-label=\"Search leads\"></label>",
+      "css": ".ds-search { position: relative; display: inline-block; width: 256px; } .ds-search-icon { position: absolute; left: 8px; top: 50%; transform: translateY(-50%); display: flex; color: var(--muted-foreground, #51605a); pointer-events: none; } .ds-input { width: 100%; height: 32px; padding: 4px 10px 4px 32px; background: transparent; color: var(--ink, #15201d); border: 1px solid var(--input, #7f8a80); border-radius: 2px; font: 400 14px/20px 'Archivo Variable', ui-sans-serif, system-ui, sans-serif; caret-color: var(--live, #2b62a8); transition: border-color 150ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-input::placeholder { color: var(--muted-foreground, #51605a); } .ds-input:focus-visible { outline: none; border-color: var(--live, #2b62a8); box-shadow: 0 0 0 3px rgb(43 98 168 / 0.5); } .ds-input[aria-invalid='true'] { border-color: var(--bad, #b0351f); box-shadow: 0 0 0 3px rgb(176 53 31 / 0.2); }"
+    },
+    {
+      "name": "Ink Rail",
+      "kind": "nav",
+      "refersTo": "rail",
+      "description": "The left binding strip: brand line, three views, Jobs at the foot. Active item is the Survey Blue fill.",
+      "html": "<nav class=\"ds-rail\" aria-label=\"Main\"><div class=\"ds-rail-brand\">Daan Agency</div><div class=\"ds-rail-items\"><a class=\"ds-rail-item\" href=\"#\" aria-current=\"page\"><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M15 3v18\"/><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"/><path d=\"M21 9H3\"/><path d=\"M21 15H3\"/></svg>Leads</a><a class=\"ds-rail-item\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"/><path d=\"M9 3v18\"/><path d=\"M15 3v18\"/></svg>Board</a><a class=\"ds-rail-item\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect width=\"8\" height=\"8\" x=\"3\" y=\"3\" rx=\"2\"/><path d=\"M7 11v4a2 2 0 0 0 2 2h4\"/><rect width=\"8\" height=\"8\" x=\"13\" y=\"13\" rx=\"2\"/></svg>Pipeline</a></div><div class=\"ds-rail-foot\"><a class=\"ds-rail-item\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2\"/></svg><span>Jobs</span></a></div></nav>",
+      "css": ".ds-rail { display: flex; flex-direction: column; width: 208px; min-height: 260px; background: var(--rail, #15201d); color: var(--rail-foreground, #e3e9e4); font-family: 'Archivo Variable', ui-sans-serif, system-ui, sans-serif; } .ds-rail-brand { padding: 16px; border-bottom: 1px solid var(--rail-line, #2e3e38); font-size: 16px; line-height: 24px; font-weight: 600; } .ds-rail-items { display: flex; flex-direction: column; gap: 4px; padding: 12px 8px; } .ds-rail-foot { margin-top: auto; padding: 8px; border-top: 1px solid var(--rail-line, #2e3e38); } .ds-rail-item { display: flex; align-items: center; gap: 10px; padding: 6px 10px; color: var(--rail-foreground, #e3e9e4); text-decoration: none; font-size: 14px; line-height: 20px; font-weight: 500; } .ds-rail-item svg { flex-shrink: 0; } .ds-rail-item:hover { background: var(--rail-line, #2e3e38); } .ds-rail-item[aria-current='page'] { background: var(--live, #2b62a8); color: #fff; } .ds-rail-item:focus-visible { outline: 2px solid var(--live, #2b62a8); outline-offset: 0; }"
+    },
+    {
+      "name": "Tier Zones",
+      "kind": "chip",
+      "refersTo": "tier-zone-a",
+      "description": "Tier as a zoning swatch: Vermilion A, Signal Yellow B, hatched C with its letter on a solid film plate.",
+      "html": "<div class=\"ds-tiers\"><span class=\"ds-tier ds-tier-a\" aria-label=\"Tier A\">A</span><span class=\"ds-tier ds-tier-b\" aria-label=\"Tier B\">B</span><span class=\"ds-tier ds-tier-c\" aria-label=\"Tier C\"><span>C</span></span></div>",
+      "css": ".ds-tiers { display: flex; gap: 8px; align-items: center; } .ds-tier { display: inline-grid; place-items: center; width: 20px; height: 20px; box-sizing: border-box; border: 1px solid var(--ink, #15201d); color: var(--ink, #15201d); font-family: 'Archivo Variable', ui-sans-serif, system-ui, sans-serif; font-stretch: 72%; font-weight: 600; font-size: 11px; line-height: 16px; letter-spacing: 0.07em; text-transform: uppercase; } .ds-tier-a { background: var(--zone-a, #c63d25); color: #fff; } .ds-tier-b { background: var(--zone-b, #efc62f); color: var(--zone-b-ink, #2a2200); } .ds-tier-c { background-image: repeating-linear-gradient(135deg, var(--zone-c, #c2c8bf) 0 1.5px, transparent 1.5px 4px); } .ds-tier-c > span { background: var(--background, #eef0ea); padding: 0 2px; line-height: 12px; }"
+    },
+    {
+      "name": "Parcel Strip",
+      "kind": "custom",
+      "refersTo": "tier-zone-a",
+      "description": "The score as a parcel: one lot per component, as wide as its weight (30/30/20/20), filled in the tier colour to what it earned. Row size and panel size.",
+      "html": "<div class=\"ds-parcel-demo\"><div class=\"ds-score-row\"><span class=\"ds-score-fig\">75</span><div class=\"ds-parcel\" role=\"img\" aria-label=\"Need 30/30, Ability 22/30, Momentum 3/20, Reach 20/20\"><div class=\"ds-parcel-lot\" style=\"flex-grow:30\"><i style=\"width:100%\"></i></div><div class=\"ds-parcel-lot\" style=\"flex-grow:30\"><i style=\"width:73%\"></i></div><div class=\"ds-parcel-lot\" style=\"flex-grow:20\"><i style=\"width:15%\"></i></div><div class=\"ds-parcel-lot\" style=\"flex-grow:20\"><i style=\"width:100%\"></i></div></div></div><div class=\"ds-parcel ds-parcel-lg\" role=\"img\" aria-label=\"Need 30/30, Ability 22/30, Momentum 3/20, Reach 20/20\"><div class=\"ds-parcel-lot\" style=\"flex-grow:30\"><i style=\"width:100%\"></i></div><div class=\"ds-parcel-lot\" style=\"flex-grow:30\"><i style=\"width:73%\"></i></div><div class=\"ds-parcel-lot\" style=\"flex-grow:20\"><i style=\"width:15%\"></i></div><div class=\"ds-parcel-lot\" style=\"flex-grow:20\"><i style=\"width:100%\"></i></div></div><dl class=\"ds-parcel-lots\"><div style=\"flex-grow:30\"><dt>Need</dt><dd>30<span>/30</span></dd></div><div style=\"flex-grow:30\"><dt>Ability</dt><dd>22<span>/30</span></dd></div><div style=\"flex-grow:20\"><dt>Momentum</dt><dd>3<span>/20</span></dd></div><div style=\"flex-grow:20\"><dt>Reach</dt><dd>20<span>/20</span></dd></div></dl></div>",
+      "css": ".ds-parcel-demo { display: flex; flex-direction: column; gap: 12px; max-width: 360px; font-family: 'Archivo Variable', ui-sans-serif, system-ui, sans-serif; color: var(--ink, #15201d); } .ds-score-row { display: flex; align-items: center; gap: 8px; } .ds-score-fig { width: 24px; text-align: right; font-size: 16px; line-height: 20px; font-weight: 600; font-variant-numeric: tabular-nums; } .ds-parcel { display: flex; width: 96px; height: 12px; box-sizing: border-box; border: 1px solid var(--ink, #15201d); background: var(--background, #eef0ea); } .ds-parcel-lot { flex-basis: 0; height: 100%; } .ds-parcel-lot + .ds-parcel-lot { border-left: 1px solid var(--ink, #15201d); } .ds-parcel-lot i { display: block; height: 100%; background-color: var(--zone-a, #c63d25); } .ds-parcel-lg { width: 100%; height: 28px; } .ds-parcel-lg .ds-parcel-lot i { background-image: repeating-linear-gradient(135deg, rgb(21 32 29 / 0.28) 0 1px, transparent 1px 5px); } .ds-parcel-lots { display: flex; margin: -6px 0 0; font-size: 12px; line-height: 16px; } .ds-parcel-lots div { flex-basis: 0; min-width: 0; padding-right: 8px; } .ds-parcel-lots dt { font-family: 'Archivo Variable', ui-sans-serif, system-ui, sans-serif; font-stretch: 72%; font-weight: 600; font-size: 11px; line-height: 16px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted-foreground, #51605a); } .ds-parcel-lots dd { margin: 0; font-variant-numeric: tabular-nums; } .ds-parcel-lots dd span { color: var(--muted-foreground, #51605a); }"
+    },
+    {
+      "name": "Web-State Glyphs",
+      "kind": "custom",
+      "refersTo": "status-stamp",
+      "description": "What stands on the plot, drawn in ink; shape carries the state. The only fill is a verified working site in green.",
+      "html": "<ul class=\"ds-web\"><li><svg class=\"ds-web-g\" viewBox=\"0 0 12 12\" width=\"12\" height=\"12\" aria-hidden=\"true\"><rect class=\"o dash\" x=\"0.5\" y=\"0.5\" width=\"11\" height=\"11\"/></svg>No website</li><li><svg class=\"ds-web-g\" viewBox=\"0 0 12 12\" width=\"12\" height=\"12\" aria-hidden=\"true\"><rect class=\"o\" x=\"0.5\" y=\"0.5\" width=\"11\" height=\"11\"/><path class=\"l\" d=\"M0.5 6 6 0.5M0.5 11.5 11.5 0.5M6 11.5 11.5 6\"/></svg>Social page only</li><li><svg class=\"ds-web-g\" viewBox=\"0 0 12 12\" width=\"12\" height=\"12\" aria-hidden=\"true\"><rect class=\"o\" x=\"0.5\" y=\"0.5\" width=\"11\" height=\"11\"/><path class=\"l\" d=\"M3 3l6 6M9 3l-6 6\"/></svg>Link dead</li><li><svg class=\"ds-web-g\" viewBox=\"0 0 12 12\" width=\"12\" height=\"12\" aria-hidden=\"true\"><rect class=\"o\" x=\"0.5\" y=\"0.5\" width=\"11\" height=\"11\"/><path class=\"l bar\" d=\"M3 6h6\"/></svg>Site blocks checks</li><li class=\"ds-web-unknown\"><svg class=\"ds-web-g\" viewBox=\"0 0 12 12\" width=\"12\" height=\"12\" aria-hidden=\"true\"><rect class=\"o dot\" x=\"0.5\" y=\"0.5\" width=\"11\" height=\"11\"/></svg>Not audited</li><li><svg class=\"ds-web-g\" viewBox=\"0 0 12 12\" width=\"12\" height=\"12\" aria-hidden=\"true\"><rect class=\"fill\" x=\"0.5\" y=\"0.5\" width=\"11\" height=\"11\"/></svg>Site 79/100</li></ul>",
+      "css": ".ds-web { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; font: 400 13px/20px 'Archivo Variable', ui-sans-serif, system-ui, sans-serif; color: var(--ink, #15201d); } .ds-web li { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; } .ds-web-unknown { color: var(--muted-foreground, #51605a); } .ds-web-g { flex-shrink: 0; overflow: visible; } .ds-web .o { fill: none; stroke: var(--ink, #15201d); } .ds-web .dash { stroke-dasharray: 2 1.5; } .ds-web .dot { stroke: var(--faint, #a9b2a8); stroke-dasharray: 1 1.5; } .ds-web .l { fill: none; stroke: var(--ink, #15201d); } .ds-web .bar { stroke-width: 1.5; } .ds-web .fill { fill: var(--good, #2a7550); stroke: var(--good, #2a7550); }"
+    },
+    {
+      "name": "Status Stamps and Marks",
+      "kind": "chip",
+      "refersTo": "status-stamp",
+      "description": "Stamps for lead status (bordered, square) and marks for verdicts, job states and outcomes (soft plate, no border), all in plan lettering.",
+      "html": "<div class=\"ds-stamps\"><span class=\"ds-stamp\">Approved</span><span class=\"ds-stamp ds-stamp-enriched\">Enriched</span><span class=\"ds-stamp ds-stamp-ready\">Ready</span><span class=\"ds-stamp ds-stamp-contacted\">Contacted</span><span class=\"ds-stamp ds-stamp-rejected\">Rejected</span></div><div class=\"ds-stamps\"><span class=\"ds-mark ds-mark-live\">Running</span><span class=\"ds-mark ds-mark-good\">Active</span><span class=\"ds-mark ds-mark-warn\">Uncertain</span><span class=\"ds-mark ds-mark-bad\">Failed</span><span class=\"ds-mark ds-mark-muted\">Unknown</span></div>",
+      "css": ".ds-stamps { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; } .ds-stamp, .ds-mark { display: inline-flex; align-items: center; height: 20px; padding: 0 6px; box-sizing: border-box; font-family: 'Archivo Variable', ui-sans-serif, system-ui, sans-serif; font-stretch: 72%; font-weight: 600; font-size: 11px; line-height: 16px; letter-spacing: 0.07em; text-transform: uppercase; } .ds-stamp { border: 1px solid var(--ink, #15201d); color: var(--ink, #15201d); } .ds-stamp-enriched { background: var(--ink, #15201d); color: var(--background, #eef0ea); } .ds-stamp-ready { background: var(--good, #2a7550); border-color: var(--good, #2a7550); color: #fff; } .ds-stamp-contacted { border-color: var(--good, #2a7550); color: var(--good, #2a7550); } .ds-stamp-rejected { border-color: var(--border, #c3c9c1); color: var(--muted-foreground, #51605a); text-decoration: line-through; } .ds-mark-live { background: var(--live-soft, #dbe5f2); color: var(--accent-foreground, #14365f); } .ds-mark-good { background: var(--good-soft, #dcebe2); color: var(--good, #2a7550); } .ds-mark-warn { background: var(--warn-soft, #f6e9b8); color: var(--warn, #7a5600); } .ds-mark-bad { background: var(--bad-soft, #f5ddd6); color: var(--bad, #b0351f); } .ds-mark-muted { background: var(--muted, #e4e7e0); color: var(--muted-foreground, #51605a); }"
+    },
+    {
+      "name": "Title Block",
+      "kind": "card",
+      "refersTo": "title-block-cell",
+      "description": "The plan's ruled corner block: area, survey date, totals and tier counts. Lettered labels over values, 1px ink rules.",
+      "html": "<dl class=\"ds-tb\"><div class=\"ds-tb-cell ds-tb-wide\"><dt>Area</dt><dd>Laureles</dd></div><div class=\"ds-tb-cell\"><dt>Surveyed</dt><dd>2 Oct 2026</dd></div><div class=\"ds-tb-cell\"><dt>Plots</dt><dd><b>235</b></dd></div><div class=\"ds-tb-cell\"><dt>Ranked</dt><dd><b>221</b></dd></div><div class=\"ds-tb-cell\"><dt>Researched</dt><dd><b>2</b></dd></div><div class=\"ds-tb-cell ds-tb-tier\"><dt><span class=\"ds-tb-z ds-tb-za\" aria-label=\"Tier A\">A</span></dt><dd><b>8</b></dd></div><div class=\"ds-tb-cell ds-tb-tier\"><dt><span class=\"ds-tb-z ds-tb-zb\" aria-label=\"Tier B\">B</span></dt><dd><b>35</b></dd></div><div class=\"ds-tb-cell ds-tb-tier\"><dt><span class=\"ds-tb-z ds-tb-zc\" aria-label=\"Tier C\"><span>C</span></span></dt><dd><b>178</b></dd></div></dl>",
+      "css": ".ds-tb { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; width: 288px; margin: 0; background: var(--rule, #15201d); border: 1px solid var(--rule, #15201d); font: 400 13px/18.6px 'Archivo Variable', ui-sans-serif, system-ui, sans-serif; color: var(--ink, #15201d); font-variant-numeric: tabular-nums; } .ds-tb-cell { background: var(--background, #eef0ea); padding: 6px 12px; min-width: 0; } .ds-tb-wide { grid-column: span 2; } .ds-tb dt { font-family: 'Archivo Variable', ui-sans-serif, system-ui, sans-serif; font-stretch: 72%; font-weight: 600; font-size: 11px; line-height: 16px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted-foreground, #51605a); } .ds-tb dd { margin: 0; } .ds-tb b { font-weight: 600; } .ds-tb-tier { display: flex; align-items: center; gap: 8px; } .ds-tb-z { display: inline-grid; place-items: center; width: 20px; height: 20px; box-sizing: border-box; border: 1px solid var(--ink, #15201d); font-family: 'Archivo Variable', ui-sans-serif, system-ui, sans-serif; font-stretch: 72%; font-weight: 600; font-size: 11px; line-height: 16px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--ink, #15201d); } .ds-tb-za { background: var(--zone-a, #c63d25); color: #fff; } .ds-tb-zb { background: var(--zone-b, #efc62f); color: var(--zone-b-ink, #2a2200); } .ds-tb-zc { background-image: repeating-linear-gradient(135deg, var(--zone-c, #c2c8bf) 0 1.5px, transparent 1.5px 4px); } .ds-tb-zc > span { background: var(--background, #eef0ea); padding: 0 2px; line-height: 12px; }"
+    },
+    {
+      "name": "Ranked Sheet Rows",
+      "kind": "custom",
+      "refersTo": "sheet-row-selected",
+      "description": "The leads table: lettered sticky head on an ink rule, plot number, tier, score with parcel strip, name with its reason, web state, status. Selected row in Survey Blue Wash; rejected rows struck in place.",
+      "html": "<table class=\"ds-sheet\"><thead><tr><th class=\"r\">Plot</th><th>Tier</th><th>Score</th><th class=\"w\">Name and why it fits</th><th>On the plot</th><th>Status</th></tr></thead><tbody><tr><td class=\"ds-pno\">N 10244340209</td><td><span class=\"ds-sz ds-sz-a\">A</span></td><td><div class=\"ds-sc\"><span>76</span><div class=\"ds-sp\"><div class=\"ds-sp-lot\" style=\"flex-grow:30\"><i style=\"width:100%\"></i></div><div class=\"ds-sp-lot\" style=\"flex-grow:30\"><i style=\"width:73%\"></i></div><div class=\"ds-sp-lot\" style=\"flex-grow:20\"><i style=\"width:30%\"></i></div><div class=\"ds-sp-lot\" style=\"flex-grow:20\"><i style=\"width:100%\"></i></div></div></div></td><td><a href=\"#\">Naan Laureles</a><div class=\"ds-why\">cuisine: indian · public phone</div></td><td><svg class=\"ds-sg\" viewBox=\"0 0 12 12\" width=\"12\" height=\"12\" aria-hidden=\"true\"><rect class=\"o dash\" x=\"0.5\" y=\"0.5\" width=\"11\" height=\"11\"/></svg>No website</td><td><span class=\"ds-st ds-st-ink\">Enriched</span></td></tr><tr class=\"is-selected\" aria-selected=\"true\"><td class=\"ds-pno\">N 5546129027</td><td><span class=\"ds-sz ds-sz-a\">A</span></td><td><div class=\"ds-sc\"><span>75</span><div class=\"ds-sp\"><div class=\"ds-sp-lot\" style=\"flex-grow:30\"><i style=\"width:100%\"></i></div><div class=\"ds-sp-lot\" style=\"flex-grow:30\"><i style=\"width:73%\"></i></div><div class=\"ds-sp-lot\" style=\"flex-grow:20\"><i style=\"width:15%\"></i></div><div class=\"ds-sp-lot\" style=\"flex-grow:20\"><i style=\"width:100%\"></i></div></div></div></td><td><a href=\"#\">Rico Ajiaco y Algo más</a><div class=\"ds-why\">cuisine: regional · public phone · public email</div></td><td><svg class=\"ds-sg\" viewBox=\"0 0 12 12\" width=\"12\" height=\"12\" aria-hidden=\"true\"><rect class=\"o\" x=\"0.5\" y=\"0.5\" width=\"11\" height=\"11\"/><path class=\"l\" d=\"M3 3l6 6M9 3l-6 6\"/></svg>Link dead</td><td><span class=\"ds-st ds-st-ink\">Enriched</span></td></tr><tr class=\"is-struck\"><td class=\"ds-pno\">N 9866401117</td><td><span class=\"ds-sz ds-sz-b\">B</span></td><td><div class=\"ds-sc\"><span>68</span><div class=\"ds-sp ds-sp-b\"><div class=\"ds-sp-lot\" style=\"flex-grow:30\"><i style=\"width:100%\"></i></div><div class=\"ds-sp-lot\" style=\"flex-grow:30\"><i style=\"width:60%\"></i></div><div class=\"ds-sp-lot\" style=\"flex-grow:20\"><i style=\"width:15%\"></i></div><div class=\"ds-sp-lot\" style=\"flex-grow:20\"><i style=\"width:100%\"></i></div></div></div></td><td><a href=\"#\">Restaurante Bau</a><div class=\"ds-why\">cuisine: chinese · public phone</div></td><td><svg class=\"ds-sg\" viewBox=\"0 0 12 12\" width=\"12\" height=\"12\" aria-hidden=\"true\"><rect class=\"o dash\" x=\"0.5\" y=\"0.5\" width=\"11\" height=\"11\"/></svg>No website</td><td><span class=\"ds-st ds-st-rej\">Rejected</span></td></tr></tbody></table>",
+      "css": ".ds-sheet { width: 100%; border-collapse: collapse; font: 400 14px/20px 'Archivo Variable', ui-sans-serif, system-ui, sans-serif; color: var(--ink, #15201d); font-variant-numeric: tabular-nums; background: var(--background, #eef0ea); } .ds-sheet th { height: 32px; padding: 0 8px; text-align: left; white-space: nowrap; font-family: 'Archivo Variable', ui-sans-serif, system-ui, sans-serif; font-stretch: 72%; font-weight: 600; font-size: 11px; line-height: 16px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted-foreground, #51605a); box-shadow: inset 0 -1px 0 var(--rule, #15201d); } .ds-sheet th.r { text-align: right; } .ds-sheet th.w { width: 100%; } .ds-sheet td { padding: 8px; vertical-align: top; border-bottom: 1px solid var(--border, #c3c9c1); white-space: nowrap; } .ds-sheet tbody tr:hover { background: rgb(228 231 224 / 0.6); } .ds-sheet tr.is-selected, .ds-sheet tr.is-selected:hover { background: var(--live-soft, #dbe5f2); } .ds-pno { text-align: right; font-size: 12px; font-weight: 500; font-stretch: 72%; letter-spacing: 0.02em; color: var(--muted-foreground, #51605a); } .ds-sz { display: inline-grid; place-items: center; width: 20px; height: 20px; box-sizing: border-box; border: 1px solid var(--ink, #15201d); font-family: 'Archivo Variable', ui-sans-serif, system-ui, sans-serif; font-stretch: 72%; font-weight: 600; font-size: 11px; line-height: 16px; letter-spacing: 0.07em; text-transform: uppercase; } .ds-sz-a { background: var(--zone-a, #c63d25); color: #fff; } .ds-sz-b { background: var(--zone-b, #efc62f); color: var(--zone-b-ink, #2a2200); } .ds-sc { display: flex; align-items: center; gap: 8px; } .ds-sc > span { width: 24px; text-align: right; font-size: 16px; font-weight: 600; } .ds-sp { display: flex; width: 96px; height: 12px; box-sizing: border-box; border: 1px solid var(--ink, #15201d); background: var(--background, #eef0ea); } .ds-sp-lot { flex-basis: 0; height: 100%; } .ds-sp-lot + .ds-sp-lot { border-left: 1px solid var(--ink, #15201d); } .ds-sp-lot i { display: block; height: 100%; background: var(--zone-a, #c63d25); } .ds-sp-b .ds-sp-lot i { background: var(--zone-b, #efc62f); } .ds-sheet a { color: var(--ink, #15201d); font-weight: 600; text-decoration: none; } .ds-sheet a:hover { text-decoration: underline; } .ds-sheet a:focus-visible { outline: 2px solid var(--live, #2b62a8); outline-offset: 1px; } .ds-why { font-size: 12px; line-height: 20px; color: var(--muted-foreground, #51605a); } .ds-sheet td:nth-child(5) { font-size: 13px; } .ds-sg { margin-right: 6px; vertical-align: -1px; overflow: visible; } .ds-sheet .o { fill: none; stroke: var(--ink, #15201d); } .ds-sheet .dash { stroke-dasharray: 2 1.5; } .ds-sheet .dot { stroke: var(--faint, #a9b2a8); stroke-dasharray: 1 1.5; } .ds-sheet .l { fill: none; stroke: var(--ink, #15201d); } .ds-sheet .bar { stroke-width: 1.5; } .ds-sheet .fill { fill: var(--good, #2a7550); stroke: var(--good, #2a7550); } .ds-st { display: inline-flex; align-items: center; height: 20px; padding: 0 6px; box-sizing: border-box; border: 1px solid var(--ink, #15201d); font-family: 'Archivo Variable', ui-sans-serif, system-ui, sans-serif; font-stretch: 72%; font-weight: 600; font-size: 11px; line-height: 16px; letter-spacing: 0.07em; text-transform: uppercase; } .ds-st-ink { background: var(--ink, #15201d); color: var(--background, #eef0ea); } .ds-st-rej { border-color: var(--border, #c3c9c1); color: var(--muted-foreground, #51605a); text-decoration: line-through; } .ds-sheet tr.is-struck { color: var(--muted-foreground, #51605a); } .ds-sheet tr.is-struck a { color: var(--muted-foreground, #51605a); text-decoration: line-through; text-decoration-thickness: 1px; } .ds-sheet tr.is-struck .ds-sc > span { font-weight: 400; } .ds-sheet tr.is-struck .ds-sz, .ds-sheet tr.is-struck .ds-sp { opacity: 0.5; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Plano Catastral",
+    "overview": "Every restaurant is a plot on the neighbourhood's survey sheet: numbered, zoned by tier, lettered like a municipal plan. The app is a working drawing, not a dashboard. A cool drafting-film sheet carries ink linework, a dark ink rail runs down the left edge like the binding strip of a plan set, and the few saturated colours are zoning fills that mean exactly one thing each. The person reading it is one designer at a desk in daylight, deciding who to pitch next; the sheet has to be dense, quiet and exact enough to scan 200 rows and still trust each one.\n\nDensity is Operate density. Body text is 14 px, rows carry a name and the reason it ranks beneath it, figures are tabular everywhere, and labels are set in condensed plan lettering so a column head or a stamp takes little width. Structure comes from 1 px ruled lines rather than boxes, fills or shadows: ink rules for the plan's own divisions, a quieter survey-line grey for row separators. Corners are square. Nothing floats except shadcn overlays.\n\nThe world explicitly refuses the white CRM table with one accent colour and KPI cards stacked on top. Counts live in a ruled title block, the way a plan carries its area, date and sheet totals in the corner.",
+    "keyCharacteristics": [
+      "Drafting-film sheet, ink linework, an ink rail; flat, ruled, square-cornered.",
+      "Zoning colour (red, yellow, hatched grey) belongs to tiers A, B and C and to nothing else.",
+      "One live colour: Survey Blue marks selection, focus, the active rail item, running work and drop targets.",
+      "What stands on a plot is drawn as an ink glyph whose shape carries the state; the only filled glyph is a verified working site, in green.",
+      "Condensed uppercase plan lettering for labels, codes, column heads and stamps; tabular figures throughout.",
+      "Every lead keeps one stable plot number, and rejected or excluded leads are struck in place rather than removed."
+    ],
+    "rules": [
+      {
+        "name": "The Zoning Rule",
+        "body": "Vermilion, Signal Yellow and the grey hatch are the zoning of tiers A, B and C and are used for nothing else: not for errors, warnings, emphasis or decoration. A failure is Failure Red; a caution is Ochre on Straw.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Live Colour Rule",
+        "body": "Survey Blue means \"chosen now\" or \"happening now\". Every live state uses it, and no other hue signals a live state. Nothing decorative is blue.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ink Glyph Rule",
+        "body": "What stands on a plot is drawn in ink and told apart by shape alone, in the sheet and in the block drawing alike. The only filled web glyph is a working site, in Verified Green, because green means verified.",
+        "section": "colors"
+      },
+      {
+        "name": "The Absence Rule",
+        "body": "Survey Grey means something is missing. Anything the user operates is stroked in Control Line, which holds 3:1 on the sheet; the two greys never swap jobs.",
+        "section": "colors"
+      },
+      {
+        "name": "The Plan Lettering Rule",
+        "body": "Labels, codes, column heads, stamps and tier letters are lettered: condensed, tracked, uppercase, small. Lettering names the value or the group it sits on; it never stands above a heading as a kicker or eyebrow.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Every figure is tabular. A number that has to be compared sits right-aligned in its column.",
+        "section": "typography"
+      },
+      {
+        "name": "The Struck-In-Place Rule",
+        "body": "A rejected lead keeps its row and its rank, struck through; the sheet never silently loses a plot.",
+        "section": "layout"
+      },
+      {
+        "name": "The Title Block Rule",
+        "body": "Totals and reference facts (area, survey date, counts, plot, score) sit in a ruled title block at the corner of the sheet or the lead, never in cards above the table.",
+        "section": "layout"
+      },
+      {
+        "name": "The Drawn Line Rule",
+        "body": "Every division is a 1 px line: ink for the plan's own structure, survey line for separation. Surfaces, cards, rows and marks carry no shadow.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Square Plan Rule",
+        "body": "The plan's marks have no radius; controls and overlays take 2 px and never more.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** give every lead its stable plot number in plot-number lettering, in a meta row under the name or in a ruled title-block cell.",
+      "**Do** show tier with the Tier Zone and score with the Parcel Strip, and keep the reason (the reason line or the \"Why it fits\" list) in the same row or panel as the score.",
+      "**Do** use Survey Blue (#2b62a8) for every live state (selection, focus, the active rail item, running jobs, drop targets) and its wash (#dbe5f2) for live fills.",
+      "**Do** draw divisions with 1 px lines: Plan Ink for the plan's structure, Survey Line (#c3c9c1) between items.",
+      "**Do** strike rejected and excluded leads in place: line-through name, Pencil text, regular-weight score, 50% tier zone and parcel strip; a rejected lead keeps its rank.",
+      "**Do** set labels, column heads, codes and stamps in plan lettering (600, 0.6875rem, uppercase, 0.07em, 72% width) and keep every figure tabular.",
+      "**Do** keep absent data visible and labelled: faint Survey Grey marks for missing reach, \"None in the map data\" in Pencil for missing facts.",
+      "**Do** stroke inputs, selects, checkboxes, toggles and dashed drop or empty frames in Control Line (#7f8a80), and keep Survey Grey (#a9b2a8) for absence only.",
+      "**Do** keep the plan's marks square (0 radius) and controls at 2 px."
+    ],
+    "donts": [
+      "**Don't** put kickers or eyebrows above headings; identifiers like the plot number go in a meta row under the name or in a ruled title block.",
+      "**Don't** colour web states. The glyph's shape carries the state in ink; the green fill is reserved for a verified working site.",
+      "**Don't** use Vermilion, Signal Yellow or the grey hatch for anything except tiers A, B and C; failures are Failure Red (#b0351f), cautions Ochre on Straw.",
+      "**Don't** introduce a second live colour or use blue decoratively.",
+      "**Don't** add shadows to the sheet, rows, cards or marks; shadows belong only to shadcn overlays (popovers, selects, menus, the jobs drawer).",
+      "**Don't** round corners past 2 px or make pills.",
+      "**Don't** remove a rejected lead from the sheet or re-rank it out of sight.",
+      "**Don't** build the white CRM table with one accent and KPI cards on top; sheet totals live in the title block."
+    ]
+  }
+}
